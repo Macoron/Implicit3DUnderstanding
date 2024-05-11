@@ -10,6 +10,14 @@ Cheng Zhang*, Zhaopeng Cui*, Yinda Zhang*, Shuaicheng Liu, Bing Zeng, Marc Polle
 ![pipeline](figures/pipeline.png)
 
 
+## My Changes
+- Fixed conda pytorch and torchvision specifiers
+- Changed CUDA Toolkit version to 10.0
+- Replaced `compute_30`, `sm_30` with `compute_86`, `sm_86`
+- Fixed CUDA version checker python script
+
+Tested on T4 and V100. Newer Nvidia GPU might not work.
+
 ## Introduction
 
 This repo contains training, testing, evaluation, visualization code of our CVPR 2021 paper.
